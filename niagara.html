@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hybris</title>
+    <link rel="stylesheet" href="portfolio_stylesheet.css" />
+  </head>
+  <body>
+      <header class="menu">
+        <nav>
+          <ul>
+            <li>
+                <button type="button" class="language-switch" id="language-switch">
+                    <span id="lang-en">EN</span>
+                    <span>|</span>
+                    <span id="lang-it">IT</span>
+                </button>
+            </li>
+
+              <li ><a href="#about" data-en="About" data-it="Chi sono">About</a></li>
+            <li class="works-menu">
+            <details>
+                <summary data-en="Works" data-it="Lavori">Works</summary>
+                <ul class="works-submenu">
+                    <li><a href="lightinferno.html" data-en="Light Inferno"
+                    data-it="Light Inferno">Light Inferno</a></li>
+                    <li><a href="audiovisuals.html" data-en="Audio-Reactive Visuals"
+                    data-it="Visuals Audio-Reattivi">Audio-Reactive Visuals</a></li>
+                    <li><a href="house.html" data-en="The House"
+                    data-it="La Casa">The House</a></li>
+                    <li><a href="hybris.html" data-en='Logo "Hybris"'
+                    data-it='Logo "Hybris"'>Logo "Hybris"</a></li>
+                    <li><a href="niagara.html" data-en="Unreal Engine Niagara VFX Practice"
+                    data-it="VFX con Unreal Engine Niagara">Niagara VFX Practice</a></li>
+                    <li><a href="handFire.html" data-en="Hand on Fire"
+                    data-it="Mano in fiamme">Hand on Fire</a></li>
+                    <li><a href="watch.html" data-en="Watch Commercial Concept"
+                    data-it="Concept pubblicitario per orologio">Watch Commercial Concept</a></li>
+                </ul>
+            </details>
+        </li>
+              <li><a href="#contacts" data-en="Contacts"
+              data-it="Contatti">Contacts</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+
+<!-- AGGIUNGERE UNA ROBA CHE QUANDO CI SCORRI SOPRA TI MOSTRA I PROGRAMMI UTILIZZATI PER QUEL LAVORO-->
+      <section id="works">
+        <div class="worksection-with-sub">
+          <h2 class="subtitle" data-en="Unreal Engine Niagara VFX Practice" data-it="VFX con Unreal Engine Niagara">Unreal Engine Niagara VFX Practice</h2>
+          <p class="subdescription" data-en="Development of interactive visual effects using Unreal Engine Niagara."
+          data-it="Sviluppo di effetti visivi interattivi utilizzando Unreal Engine Niagara.">Development of interactive visual effects using Unreal Engine Niagara.</p>
+          <h3 class="description" data-en="Fire" data-it="Fuoco">Fire</h3>
+          <video class="media" src="portfolio/niagara_fuoco.mp4" alt="Niagara fire, final result" controls></video>
+        <details class="work-details">
+        <summary data-en="Show details" data-it="Dettagli">Show details</summary>
+          <video class="media" src="portfolio/fuoco_dettagli.mp4" alt="Niagara fire, details" controls></video>
+          <p class="description" data-en="Niagara system developed to simulate a small fire source with rising smoke. The effect combines particle emission, intensity variations, and dissipation to achieve a believable result." data-it="Sistema Niagara sviluppato per simulare una piccola fonte di fuoco con fumo ascendente. L’effetto combina emissione di particelle, variazioni di intensità e dissipazione per ottenere un risultato realistico.">Niagara system developed to simulate a small fire source with rising smoke. The effect combines particle emission, intensity variations, and dissipation to achieve a believable result.</p>
+        </details>
+        </div>
+
+        <div class="worksection">
+          <h3 class="description" data-en="Floating Bubbles" data-it="Bolle di sapone">Floating Bubbles</h3>
+          <video class="media" src="portfolio/niagara_bolle.mp4" alt="Niagara bubbles, final result" controls></video>
+        <details class="work-details">
+        <summary data-en="Show details" data-it="Dettagli">Show details</summary>
+          <img class="media" src="portfolio/fuoco_dettagli.png" alt="Niagara bubbles, details"/>
+          <p class="description" data-en="Niagara system developed to generate soap bubbles with variable behavior. The material applied to the particles adjusts hue and transparency in response to the parameters controlled within the system."
+          data-it="Sistema Niagara sviluppato per generare bolle di sapone con comportamento variabile. Il materiale applicato alle particelle regola tonalità e trasparenza in risposta ai parametri controllati all’interno del sistema.">Niagara system developed to generate soap bubbles with variable behavior. The material applied to the particles adjusts hue and transparency in response to the parameters controlled within the system.</p>
+          <video class="media" src="portfolio/bolle_materiale.mp4" alt="Niagara bubbles, material" controls></video>
+          <p class="description" data-en="Demonstration of the material used in the previous effect, configured to modify color and transparency based on variable values." data-it="Dimostrazione del materiale utilizzato nell’effetto precedente, configurato per modificare colore e trasparenza in base a valori variabili.">Demonstration of the material used in the previous effect, configured to modify color and transparency based on variable values.</p>
+        </details>
+        </div>
+
+        <div class="worksection">
+          <h3 class="description" data-en="Rain" data-it="Pioggia">Rain</h3>
+          <video class="media" src="portfolio/niagara_pioggia.mp4" alt="Niagara rain, final result" controls></video>
+        <details class="work-details">
+        <summary data-en="Show details" data-it="Dettagli">Show details</summary>
+          <video class="media" src="portfolio/pioggia_dettagli.mp4" alt="Niagara rain, details" controls></video>
+          <p class="description" data-en="Simulation of a dark cloud forming and generating rainfall. The sequence combines the creation of the cloud with the emission of particles that reproduce falling raindrops, resulting in a believable atmospheric transition."
+          data-it="Simulazione della formazione di una nuvola scura e della conseguente pioggia. La sequenza combina la creazione della nuvola con l’emissione di particelle che riproducono le gocce di pioggia, ottenendo una transizione atmosferica realistica.">Simulation of a dark cloud forming and generating rainfall. The sequence combines the creation of the cloud with the emission of particles that reproduce falling raindrops, resulting in a believable atmospheric transition.</p>
+        </details>
+        </div>
+
+        <div class="worksection">
+          <h3 class="description" data-en="Snow" data-it="Neve">Snow</h3>
+          <video class="media"src="portfolio/niagara_neve.mp4" alt="Niagara snow, details" controls></video>
+        <details class="work-details">
+        <summary data-en="Show details" data-it="Dettagli">Show details</summary>
+          <img class="media" src="portfolio/neve_dettagli.png" alt="Niagara snow, details"/>
+          <p class="description" data-en="Snowfall simulation composed of spherical particles configured to reproduce flakes descending with irregular motion. The particle behavior was set to achieve a believable result without the presence of an initial cloud."
+          data-it="Simulazione di una nevicata composta da particelle sferiche configurate per riprodurre fiocchi che scendono con un movimento irregolare. Il comportamento delle particelle è stato impostato per ottenere un risultato realistico senza la presenza di una nuvola iniziale.">Snowfall simulation composed of spherical particles configured to reproduce flakes descending with irregular motion. The particle behavior was set to achieve a believable result without the presence of an initial cloud.</p>
+        </details>
+        </div>
+      </section>
+
+    </main>
+
+<footer class="site-footer">
+    <a href="portfolio.html" data-en="← Back to Home" data-it="← Torna alla Home">← Back to Home</a>
+    <p> 2026 Polina Kondyreva</p>
+    <img src="portfolio/Senza titolo-1.jpg" alt="Personal Logo">
+</footer>
+
+<script src="script.js"></script>
+  </body>
+</html>
+
+
+<!-- DA FARE IN JAVASCRIPT mettere i dettagli che qunado scorri sopra si oscura il video e  i dettagli di quel lavoro FORSE FALLO PER TUTTI-->
+
